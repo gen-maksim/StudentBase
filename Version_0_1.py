@@ -306,11 +306,18 @@ class child2:
                             resS += str(y['surname']) + '\n'
                             resI += str(schet)+'\n'
                             
-                        if self.vvodadress1.get().upper()==str(y['adress']).upper():
-                            resN += str(y['number']) + '\n'
-                            resA += str(y['adress']) + '\n'
-                            resS += str(y['surname']) + '\n'
-                            resI += str(schet)+'\n'
+                            if self.vvodadress1.get().upper()==str(y['adress']).upper():
+                                resN += str(y['number']) + '\n'
+                                resA += str(y['adress']) + '\n'
+                                resS += str(y['surname']) + '\n'
+                                resI += str(schet)+'\n'
+                        else
+                            if self.vvodadress1.get().upper()==str(y['adress']).upper():
+                                resN += str(y['number']) + '\n'
+                                resA += str(y['adress']) + '\n'
+                                resS += str(y['surname']) + '\n'
+                                resI += str(schet)+'\n'
+                    
                     else:
                         resN += str(y['number']) + '\n'
                         resA += str(y['adress']) + '\n'
@@ -331,11 +338,17 @@ class child2:
                             resS += str(n['surname']) + '\n'
                             resI += str(schet)+'\n'
                             
-                        if self.vvodadress1.get().upper()==str(n['adress']).upper():
-                            resN += str(n['number']) + '\n'
-                            resA += str(n['adress']) + '\n'
-                            resS += str(n['surname']) + '\n'
-                            resI += str(schet)+'\n'
+                            if self.vvodadress1.get().upper()==str(n['adress']).upper():
+                                resN += str(n['number']) + '\n'
+                                resA += str(n['adress']) + '\n'
+                                resS += str(n['surname']) + '\n'
+                                resI += str(schet)+'\n'
+                        else
+                            if self.vvodadress1.get().upper()==str(n['adress']).upper():
+                                resN += str(n['number']) + '\n'
+                                resA += str(n['adress']) + '\n'
+                                resS += str(n['surname']) + '\n'
+                                resI += str(schet)+'\n'
                     else:
                         resN += str(n['number']) + '\n'
                         resA += str(n['adress']) + '\n'
@@ -355,11 +368,17 @@ class child2:
                             resS += str(a['surname']) + '\n'
                             resI += str(schet)+'\n'
                             
-                        if self.vvodName.get().upper()==str(a['surname']).upper():
-                            resN += str(a['number']) + '\n'
-                            resA += str(a['adress']) + '\n'
-                            resS += str(a['surname']) + '\n'
-                            resI += str(schet)+'\n'
+                            if self.vvodName.get().upper()==str(a['surname']).upper():
+                                resN += str(a['number']) + '\n'
+                                resA += str(a['adress']) + '\n'
+                                resS += str(a['surname']) + '\n'
+                                resI += str(schet)+'\n'
+                        else
+                            if self.vvodName.get().upper()==str(a['surname']).upper():
+                                resN += str(a['number']) + '\n'
+                                resA += str(a['adress']) + '\n'
+                                resS += str(a['surname']) + '\n'
+                                resI += str(schet)+'\n'
                     else:
                         resN += str(a['number']) + '\n'
                         resA += str(a['adress']) + '\n'
